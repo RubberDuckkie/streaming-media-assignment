@@ -11,7 +11,7 @@ const getIndex = (request, response) => {
 
 const getPage2 = (request, response) => {
   response.writeHead(200, {'Content-Type': 'text/html'});
-  response.write(index);
+  response.write(page2);
   response.end();
 
 ;}
